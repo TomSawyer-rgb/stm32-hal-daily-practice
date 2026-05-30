@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"tim_exti_test\startup_stm32f103xb.o"
+"tim_exti_test\main.o"
+"tim_exti_test\gpio.o"
+"tim_exti_test\tim.o"
+"tim_exti_test\stm32f1xx_it.o"
+"tim_exti_test\stm32f1xx_hal_msp.o"
+"tim_exti_test\stm32f1xx_hal_gpio_ex.o"
+"tim_exti_test\stm32f1xx_hal_tim.o"
+"tim_exti_test\stm32f1xx_hal_tim_ex.o"
+"tim_exti_test\stm32f1xx_hal.o"
+"tim_exti_test\stm32f1xx_hal_rcc.o"
+"tim_exti_test\stm32f1xx_hal_rcc_ex.o"
+"tim_exti_test\stm32f1xx_hal_gpio.o"
+"tim_exti_test\stm32f1xx_hal_dma.o"
+"tim_exti_test\stm32f1xx_hal_cortex.o"
+"tim_exti_test\stm32f1xx_hal_pwr.o"
+"tim_exti_test\stm32f1xx_hal_flash.o"
+"tim_exti_test\stm32f1xx_hal_flash_ex.o"
+"tim_exti_test\stm32f1xx_hal_exti.o"
+"tim_exti_test\system_stm32f1xx.o"
+--strict --scatter "TIM_EXTI_test\TIM_EXTI_test.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "TIM_EXTI_test.map" -o TIM_EXTI_test\TIM_EXTI_test.axf

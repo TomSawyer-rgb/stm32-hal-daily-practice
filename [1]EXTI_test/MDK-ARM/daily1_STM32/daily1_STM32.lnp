@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"daily1_stm32\startup_stm32f103xb.o"
+"daily1_stm32\main.o"
+"daily1_stm32\gpio.o"
+"daily1_stm32\stm32f1xx_it.o"
+"daily1_stm32\stm32f1xx_hal_msp.o"
+"daily1_stm32\stm32f1xx_hal_gpio_ex.o"
+"daily1_stm32\stm32f1xx_hal_tim.o"
+"daily1_stm32\stm32f1xx_hal_tim_ex.o"
+"daily1_stm32\stm32f1xx_hal.o"
+"daily1_stm32\stm32f1xx_hal_rcc.o"
+"daily1_stm32\stm32f1xx_hal_rcc_ex.o"
+"daily1_stm32\stm32f1xx_hal_gpio.o"
+"daily1_stm32\stm32f1xx_hal_dma.o"
+"daily1_stm32\stm32f1xx_hal_cortex.o"
+"daily1_stm32\stm32f1xx_hal_pwr.o"
+"daily1_stm32\stm32f1xx_hal_flash.o"
+"daily1_stm32\stm32f1xx_hal_flash_ex.o"
+"daily1_stm32\stm32f1xx_hal_exti.o"
+"daily1_stm32\system_stm32f1xx.o"
+--strict --scatter "daily1_STM32\daily1_STM32.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "daily1_STM32.map" -o daily1_STM32\daily1_STM32.axf
