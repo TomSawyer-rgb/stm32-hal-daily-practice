@@ -30,7 +30,7 @@
 
 **项目文档**: [readme.txt](file:///c:/Users/1/Desktop/stm32_hal - 副本/[1]EXTI_test/Doc/readme.txt)
 
-### 2. TIM_EXTI_test - 定时器与 PWM 实验
+### 2. [2]TIM_EXTI_test - 定时器与 PWM 实验
 
 **功能说明**：
 - TIM2 定时器中断（1 秒翻转 PC13 LED）
@@ -48,7 +48,7 @@
 
 **项目文档**: [readme.txt](file:///c:/Users/1/Desktop/stm32_hal - 副本/TIM_EXTI_test/Doc/readme.txt)
 
-### 3. UART_test - 串口通信实验
+### 3. [3]UART_test - 串口通信实验
 
 **功能说明**：
 
